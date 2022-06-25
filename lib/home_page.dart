@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 
 TextStyle appBarStyle = TextStyle(fontFamily: 'Avenir next',  fontSize: 15, color: Colors.white, fontWeight: FontWeight.w400);
 TextStyle showStyle = TextStyle(fontFamily: 'Avenir next',  fontSize: 17, color: Colors.white, fontWeight: FontWeight.bold);
-TextStyle infoStyle = TextStyle(fontFamily: 'Avenir next',  fontSize: 11, color: Color.fromARGB(255, 125, 125, 125), fontWeight: FontWeight.w400);
+TextStyle infoStyle = TextStyle(fontFamily: 'Avenir next',  fontSize: 13, color: Color.fromARGB(255, 175, 175, 175), fontWeight: FontWeight.w400);
 TextStyle playTextStyle = TextStyle(fontFamily: 'Avenir next',  fontSize: 15, color: Colors.black, fontWeight: FontWeight.w400);
 
 void main() {
