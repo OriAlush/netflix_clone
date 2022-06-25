@@ -61,7 +61,18 @@ flutter:
   assets:
     - stranger_things.png
     - netflix_logo.png
-  #   - images/a_dot_ham.jpeg
+
+    - popular0.jpg
+    - popular1.jpg
+    - popular2.jpg
+    - popular3.jpg
+    - popular4.jpg
+
+    - previews0.jpg
+    - previews1.jpg
+    - previews2.jpg
+    - previews3.jpg
+    - previews4.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
