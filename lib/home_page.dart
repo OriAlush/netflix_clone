@@ -1,30 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors, use_full_hex_values_for_flutter_colors, must_be_immutable, use_key_in_widget_constructors, prefer_const_constructors_in_immutables
 
 import 'package:flutter/material.dart';
-
-TextStyle appBarStyle = TextStyle(fontFamily: 'Avenir next',  fontSize: 15, color: Colors.white, fontWeight: FontWeight.w400);
-TextStyle showStyle = TextStyle(fontFamily: 'Avenir next',  fontSize: 17, color: Colors.white, fontWeight: FontWeight.bold);
-TextStyle infoStyle = TextStyle(fontFamily: 'Avenir next',  fontSize: 13, color: Color.fromARGB(255, 175, 175, 175), fontWeight: FontWeight.w400);
-TextStyle playTextStyle = TextStyle(fontFamily: 'Avenir next',  fontSize: 15, color: Colors.black, fontWeight: FontWeight.w400);
-
-void main() {
-  runApp(const MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primaryColor: Colors.black,
-      ),
-      home: HomePage(),
-    );
-  }
-}
+import 'package:netflix_clone/resources.dart';
 
 class HomePage extends StatelessWidget {
 
@@ -34,15 +11,15 @@ class HomePage extends StatelessWidget {
     'popular2',
     'popular3',
     'popular4',
-  ]; 
+    ]; 
 
   final List _previews = [
-    'popular0',    
-    'popular1',
-    'popular2',
-    'popular3',
-    'popular4',
-  ];   
+    'previews0',    
+    'previews1',
+    'previews2',
+    'previews3',
+    'previews4',
+    ];
 
   @override
   Widget build(BuildContext context) {
